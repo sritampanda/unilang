@@ -1,6 +1,6 @@
 from textblob import TextBlob
 import pandas as pd
-df = pd.read_excel("lang_id.xlsx")
+df = pd.read_excel("app/lang_id.xlsx")
 class Langops:    
     def __init__(self):
         pass

@@ -9,10 +9,10 @@ Created on Mon May  3 19:57:48 2021
 #pip install flask_restful
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
-from translate import Langops
-from gensim_summary import summary
-from sentiment import sentiments
-from keyword_analysis import keywords_extraction
+from app.translate import Langops
+from app.gensim_summary import summary
+from app.sentiment import sentiments
+from app.keyword_analysis import keywords_extraction
 import json
 
 app =Flask(__name__)
