@@ -2,6 +2,8 @@
 import warnings
 warnings.filterwarnings("ignore")
 from rake_nltk import Rake
+import nltk
+nltk.download('stopwords')
 class keywords_extraction:    
     def keyword_extract(self,text):
         try:
