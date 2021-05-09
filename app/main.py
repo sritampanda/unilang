@@ -84,7 +84,7 @@ class Sentiments(Resource,sentiments):
             return jsonify({"error":"Error! Unable to complete the operation."})
 class homepage(Resource):
     def get(self):
-        return ('''Welcome to Texty! Follow the instruction below to use our API Texty.
+        return ('''Welcome to Texty! Follow the instruction below to use our API unilang.
                 Headover to:
                 - /translate/ and add {text,language} json file to get translated text in given language.
                 - /summary/ and add {text} json file to get summery text in return.
