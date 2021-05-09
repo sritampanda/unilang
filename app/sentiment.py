@@ -4,7 +4,7 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 import string
 import nltk
-#nltk.downloader.download('vader_lexicon')
+nltk.downloader.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import re
 #####cleaning
